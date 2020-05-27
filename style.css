@@ -1,0 +1,106 @@
+h1{
+  color: darkgoldenrod;
+  justify-content: center;
+}
+p{
+  border: solid;
+  border-color: chocolate;
+  max-width: 500px;
+}
+#info-input{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+#name-label{
+  margin: 0.5rem 0 0 0.5rem;
+}
+#name{
+  margin: 0.5rem 0 0 0.5rem;
+}
+#email-label{
+  margin: 0.5rem 0 0 0.5rem;
+}
+#email{
+  margin: 0.5rem 0 0 0.5rem;
+}
+#number-label{
+  margin: 0.5rem 0 0 0.5rem;
+}
+#number{
+  margin: 0.5rem 0 0 0.5rem;
+}
+#dropdown-label{
+  margin: 0.5rem 0 0 0.5rem;
+}
+#dropdown{
+  margin: 0.5rem 0 0 0.5rem;
+}
+#radio-btn {
+  padding: 1rem 0 1rem 0.5rem;
+}
+#comment-label{
+  margin: 1rem 0;
+}
+#comment-box{
+  width: 500px;
+  height: 100px;
+}
+
+
+
+#header-img{
+  width: 200px;
+}
+.nav-link{
+  text-decoration: none;
+  color: black;
+  font-size: 6rem;
+  margin: 0 50px;
+}
+#header{
+  display: flex;
+  flex-flow: row;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#nav-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#grid-container{
+  display: grid;
+  grid-template-rows: auto;
+}
+#video-container{
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+#form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px){
+  #header-img{
+    width: 75px;
+    height: auto;
+  }
+  #nav-bar{
+    flex-direction: column;
+  }
+  .nav-link{
+    font-size: 2rem;
+  }
+  #video-container{
+    margin-top: 7rem;
+    justify-content: start;
+  }
+  #form{
+    justify-content: start;
+  }
+}
